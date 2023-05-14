@@ -4,9 +4,7 @@ function LoadingConex() {
     return (
       <div className="LoadingDiv">
           <div className="Video">
-            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto">
-                <source src={process.env.PUBLIC_URL +"/conex-anim.mp4"} type="video/mp4" />
-            </video>
+            <img src={process.env.PUBLIC_URL +"/conex-anim.gif"}/>
             <br/>
             <span className="TextLoad">LOADING
                 <span class="dot-1">.</span>
