@@ -4,12 +4,13 @@ function LoadingConex() {
     return (
       <div className="LoadingDiv">
           <div className="Video">
-          <video autoPlay loop muted playsinline>
+          <video autoPlay loop muted playsinline id="video">
                 <source src={process.env.PUBLIC_URL +"/conex-anim.mp4"} type="video/mp4" />
                 <source src={process.env.PUBLIC_URL +"/conex-anim.webm"} type="video/webm" />
             </video>
-            {/* <img src={process.env.PUBLIC_URL +"/conex-anim.gif"} type="video/gif" /> */}
+            {/* <img src={process.env.PUBLIC_URL +"/conex-anim.gif"} /> */}
             <br/>
+            {document.querySelector('video').play()}
             <span className="TextLoad">LOADING
                 <span class="dot-1">.</span>
                 <span class="dot-2">.</span>
