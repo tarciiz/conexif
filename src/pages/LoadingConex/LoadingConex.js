@@ -1,15 +1,21 @@
 import './LoadingConex.css';
-import {useEffect} from "react";
+import {useEffect, useRef } from "react";
 
 function LoadingConex() {
+    const videoRef = useRef(null);
+
     useEffect(() => {
-        document.getElementById('video').play()
+        const video = videoRef.current;
+
+        if (video) {
+            video.play();
+        }
      }, [])
     
     return (
       <div className="LoadingDiv">
           <div className="Video">
-          <video autoPlay loop muted playsinline id="video">
+          <video autoPlay loop muted playsinline id="video" ref={videoRef}>
                 <source src={process.env.PUBLIC_URL +"/conex-anim.mp4"} type="video/mp4" />
                 <source src={process.env.PUBLIC_URL +"/conex-anim.webm"} type="video/webm" />
             </video>
