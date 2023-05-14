@@ -25,6 +25,9 @@
     .Video img{
         width: inherit;
     }
+    .Video video{
+        width: inherit;
+    }
 }
 
 .TextLoad{
