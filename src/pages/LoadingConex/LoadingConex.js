@@ -14,14 +14,11 @@ function LoadingConex() {
     
     return (
       <div className="LoadingDiv">
-          <div className="Video" dangerouslySetInnerHtml={{__html:
-            `<video mautoPlay="autoplay" playsInLine="playsinline" loop="true" muted="true" id="videoAuto" ref={videoRef}>
+          <div className="Video" >
+          <video mautoPlay="autoplay" playsInLine="playsinline" loop="true" muted="true" id="videoAuto" ref={videoRef}>
                 <source src={process.env.PUBLIC_URL +"/conex-anim.mp4"} type="video/mp4" />
                 <source src={process.env.PUBLIC_URL +"/conex-anim.webm"} type="video/webm" />
-            </video>`
-        
-            }}>
-          
+            </video>
             {/* <img src={process.env.PUBLIC_URL +"/conex-anim.gif"} /> */}
             <br/>
             <span className="TextLoad">LOADING
