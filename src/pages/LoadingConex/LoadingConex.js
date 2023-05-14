@@ -1,6 +1,11 @@
 import './LoadingConex.css';
+import {useEffect} from "react";
 
 function LoadingConex() {
+    useEffect(() => {
+        document.getElementById('video').play()
+     }, [])
+    
     return (
       <div className="LoadingDiv">
           <div className="Video">
@@ -10,7 +15,6 @@ function LoadingConex() {
             </video>
             {/* <img src={process.env.PUBLIC_URL +"/conex-anim.gif"} /> */}
             <br/>
-            {document.querySelector('video').play()}
             <span className="TextLoad">LOADING
                 <span class="dot-1">.</span>
                 <span class="dot-2">.</span>
