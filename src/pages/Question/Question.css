@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'CONEX';
+    src: url('../../fonts/conex-font.TTF') format("truetype");
+}
+
+
+#questionFrame{
+    width: 100%;
+    height: 95vh;
+    overflow: hidden;
+}

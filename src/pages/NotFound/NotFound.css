@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'CONEX';
+    src: url('../../fonts/conex-font.TTF') format("truetype");
+}
+
+.mainDiv{
+    background-color: black;
+    width: 100%;    
+    min-height: 100vh;
+
+    margin: 0;
+
+}

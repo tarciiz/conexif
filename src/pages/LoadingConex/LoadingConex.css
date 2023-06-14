@@ -16,7 +16,25 @@
     width: 100vw;
     height: 100vh;
     text-align: center;
+    /* animation-name: videoLoaded;
+    animation-duration: 4s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards; */
+}
 
+
+@keyframes videoLoaded{
+  0% {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+  }
+  100%{
+    position: absolute;
+    left: 15px;
+    width: 150px;
+    height: 150px;
+  }
 }
 
 

@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'CONEX';
+    src: url('../../fonts/conex-font.TTF') format("truetype");
+}
+
+.title h1{
+    margin: 0;
+    font-size: 50px;
+    
+    color: #b0faf4;
+    text-shadow:
+    0 0 10px #40dedc;
+    
+}
+
+.title h2{
+    color: #b0faf4;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.title{
+    margin-left: 15px;
+    position: absolute;
+    left: 150px;
+}
+
+.VideoLogo{
+    height: 150px;
+    display: flex;
+    
+}
+
+.menuNav{
+    width: 100%;
+    max-width: 100vw;
+    background-color: black;
+    font-family: 'CONEX', sans-serif;
+
+    display: flex;
+    justify-content: start;
+    position: static;
+
+
+    font-size:20px;
+}
+
+
+.items ul li span{
+    color: #b0faf4;
+    font-size: 20px;
+    margin-bottom: 0;
+    font-family: 'CONEX', sans-serif;
+
+}
+
+.items ul{
+    display: flex;
+    justify-content: space-around;
+}
