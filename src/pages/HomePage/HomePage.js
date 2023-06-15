@@ -1,6 +1,7 @@
 import React from "react";
 import FollowUs from "../../components/FollowUs/FollowUs";
 import Navigation from "../../components/Navigation/Navigation";
+import Participants from "../../components/Participants/Participants";
 
 import './HomePage.css';
 
@@ -13,7 +14,7 @@ function HomePage(){
                     <Navigation></Navigation>
                     <div>
                         <p style={{color: 'white'}}>
-                            Diretório academico conex
+                            <Participants/>
 
                         </p>
 

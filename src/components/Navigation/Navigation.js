@@ -49,7 +49,7 @@ function Navigation() {
                     <li class="nav-item d-flex">
                     
                         <Link class="nav-link active" to="/questions" onClick={(e)=>{activeElement(e)}} style={{'color':'#000'}}>
-                        <span>Perguntas</span>
+                        <span>Perguntas e palpites</span>
                             
                         </Link>
 
